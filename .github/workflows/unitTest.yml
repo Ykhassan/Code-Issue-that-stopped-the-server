@@ -1,7 +1,7 @@
 
 name: Endpoint test
 run-name: Testing ${{github.actor}} code submission 
-on: [push]
+on: [push] 
 jobs:
   Run-API:
     runs-on: ubuntu-latest
